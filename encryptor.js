@@ -2,7 +2,7 @@ var pbkdf2 = Npm.require('pbkdf2-sha256');
 
 // generate salt
 var genSalt = function(len) {
-  var len = (typeof len == 'number' ? parseInt(len) : 16);
+  var len = (typeof len == 'number' ? parseInt(len) : 12);
   var salt = '';
   var wordDict = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghipqrstuvwxyz0123456789';
   var wordDictLen = wordDict.length;
