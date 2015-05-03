@@ -3,7 +3,8 @@
 meteor add lufeng:encryptor
 ```
 
-**example**: encrypt a string as django 1.7 method
+### Example
+encrypt a string as django 1.7 method
 
 ```
 // code in server part
